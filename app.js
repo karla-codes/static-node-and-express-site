@@ -13,7 +13,7 @@ app.use(staticPath, express.static('public'));
 
 // index route
 app.get('/', (req, res) => {
-  res.render('index', projects);
+  res.render('index', { projects });
 });
 
 // about route
