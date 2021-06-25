@@ -44,6 +44,8 @@ app.get('/projects/:id', (req, res) => {
 app.use((req, res, next) => {
   const err = new Error("Uh oh, looks like this page doesn't exist.");
   err.status = 404;
+  console.log(err.message);
+  console.log(`Error code: ${err.status}`);
   res.render('page-not-found', { err });
 });
 
@@ -52,7 +54,7 @@ app.use((err, req, res, next) => {
   err.status = 500;
   res.status(500);
   console.log(err.message);
-  console.log(err.status);
+  console.log(`Error code: ${err.status}`);
   res.render('error', { err });
 });
 
