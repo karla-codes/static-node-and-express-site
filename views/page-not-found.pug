@@ -1,0 +1,7 @@
+extends layout.pug 
+
+block content 
+  .404-message
+      h1 Error code: #{err.status}
+      h2= err.message
+      a(href="/") Take me back
