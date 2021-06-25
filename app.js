@@ -25,7 +25,19 @@ app.get('/about', (req, res) => {
 app.get('/projects/:id', (req, res) => {
   const { id } = req.params;
   const name = projects[id].project_name;
-  res.render('project', { name });
+  const { description } = projects[id];
+  const { technologies } = projects[id];
+  const images = projects[id].image_urls.slice(1);
+  const repo = projects[id].github_link;
+  const liveLink = projects[id].live_link;
+  res.render('project', {
+    name,
+    description,
+    technologies,
+    images,
+    repo,
+    liveLink,
+  });
 });
 
 // 404 ERROR HANDLER
