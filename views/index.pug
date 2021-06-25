@@ -8,7 +8,7 @@ block content
     h1 Welcome to my corner of the internet!
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p These projects were created using the skills I've learned through the Treehouse Full-Stack JavaScript techdegree. 
+    p These projects were created using the skills I've learned through the Treehouse Full Stack JavaScript techdegree. 
 
 
   article.portfolio-project-thumbs
@@ -16,7 +16,7 @@ block content
       each project in projects 
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt='')
+            img.thumbnail(src=`${project.image_urls[0]}`, alt='Project thumbnail')
             h5= project.project_name
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
