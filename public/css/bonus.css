@@ -1,0 +1,49 @@
+/* error template styles */
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.error-message h1 {
+  margin-bottom: 1rem;
+}
+
+.error-message h2 {
+  margin-top: 0;
+}
+
+.error-message p {
+  border: 1px rgba(0, 0, 0, 0.459) solid;
+  padding: 1rem;
+  width: 100%;
+  word-break: break-word;
+}
+
+.error-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: underline 1px;
+}
+
+.error-link:hover {
+  text-decoration: underline 3px;
+}
+
+/* Extra Credit add ons */
+
+.cell:hover {
+  transition: all 0.2s ease-in;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+}
+
+.sidebar a:hover,
+.nav a:hover {
+  transition: all 0.2s ease-in;
+  text-shadow: 1px 1px 1px rgba(66, 66, 66, 0.411);
+}
