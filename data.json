@@ -5,12 +5,12 @@
       "project_name": "Random Quote Generator",
       "description": "An app that generates a random quote with the click of a button.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://karla-codes.github.io/random-quote-generator/",
       "github_link": "https://github.com/karla-codes/random-quote-generator",
       "image_urls": [
         "/static/img/random-quote-main.png",
-        "/static/img/random-quote-1",
-        "/static/img/random-quote-2"
+        "/static/img/random-quote-1.png",
+        "/static/img/random-quote-2.png"
       ]
     },
     {
@@ -18,11 +18,11 @@
       "project_name": "Data Pagination and Filtering",
       "description": "An app that uses pagination to display 42 student cards divided into 9 students per page.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://karla-codes.github.io/data-pagination-and-filtering/",
       "github_link": "https://github.com/karla-codes/data-pagination-and-filtering",
       "image_urls": [
         "/static/img/data-pagination-main.png",
-        "/static/img/data-pagination-1"
+        "/static/img/data-pagination-1.png"
       ]
     },
     {
@@ -30,12 +30,12 @@
       "project_name": "Interactive Form",
       "description": "An interactive registration form for a fictional Full-Stack conference that has been enhanced using JavaScript.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://karla-codes.github.io/interactive-form/",
       "github_link": "https://github.com/karla-codes/interactive-form",
       "image_urls": [
         "/static/img/interactive-form-main.png",
-        "/static/img/interactive-form-1",
-        "/static/img/interactive-form-2"
+        "/static/img/interactive-form-1.png",
+        "/static/img/interactive-form-2.png"
       ]
     },
     {
@@ -43,21 +43,24 @@
       "project_name": "Phrase Hunter",
       "description": "A browser-based, word guessing game.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://karla-codes.github.io/oop_game/",
       "github_link": "https://github.com/karla-codes/oop_game",
-      "image_urls": ["/static/img/oop-game-main.png", "/static/img/oop-game-1"]
+      "image_urls": [
+        "/static/img/oop-game-main.png",
+        "/static/img/oop-game-1.png"
+      ]
     },
     {
       "id": 4,
       "project_name": "Public API Request",
       "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world, that allows them to share contact information with each other.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://karla-codes.github.io/public-api-request/",
       "github_link": "https://github.com/karla-codes/public-api-request",
       "image_urls": [
         "/static/img/public-api-main.png",
-        "/static/img/public-api-1",
-        "/static/img/public-api-2"
+        "/static/img/public-api-1.png",
+        "/static/img/public-api-2.png"
       ]
     }
   ]
